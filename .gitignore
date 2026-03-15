@@ -1,0 +1,199 @@
+# AI Employee - Git Ignore File
+
+# ============================================================================
+# CREDENTIALS & SECRETS (NEVER COMMIT THESE!)
+# ============================================================================
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Gmail OAuth credentials
+credentials.json
+token.json
+
+# WhatsApp session
+.whatsapp_session/
+*.whatsapp_session/
+
+# API keys and tokens
+*.key
+*.pem
+*.cert
+secrets/
+*.secret
+
+# ============================================================================
+# LOGS & TEMPORARY FILES
+# ============================================================================
+
+# Log files
+*.log
+Logs/*.log
+Logs/action_log.json
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+
+# State files
+*.state
+*.json.bak
+.ralph_wiggum_loop_state.json
+.error_recovery_state.json
+
+# ============================================================================
+# PYTHON
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================================================
+# NODE.JS
+# ============================================================================
+
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package manager lock files (optional - remove if you want to commit them)
+# package-lock.json
+# yarn.lock
+
+# ============================================================================
+# OBSIDIAN
+# ============================================================================
+
+# Obsidian workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Keep .obsidian config but ignore workspace
+# We keep: .obsidian/app.json, .obsidian/appearance.json, etc.
+
+# ============================================================================
+# IDEs & EDITORS
+# ============================================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================================================
+# OPERATING SYSTEM
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# ============================================================================
+# SCREENSHOTS & MEDIA
+# ============================================================================
+
+# Keep Screenshots/ folder but ignore contents for privacy
+Screenshots/*.png
+Screenshots/*.jpg
+Screenshots/*.jpeg
+!Screenshots/.gitkeep
+
+# ============================================================================
+# BACKUP FILES
+# ============================================================================
+
+# Backups
+*.bak
+*.backup
+*_backup/
+backup/
+
+# ============================================================================
+# PM2 & PROCESS MANAGEMENT
+# ============================================================================
+
+# PM2 logs
+.pm2/
+pm2.log
+
+# ============================================================================
+# PLAYWRIGHT
+# ============================================================================
+
+# Playwright browsers (if stored locally - usually in system cache)
+# ms-playwright/
+
+# ============================================================================
+# WHAT TO KEEP (DO COMMIT THESE)
+# ============================================================================
+
+# Keep example files
+!.env.example
+!config.example.json
+
+# Keep README and documentation
+!README.md
+!*.md
+
+# Keep skill files
+!.claude/skills/**/*
+
+# Keep MCP server code
+!mcp-servers/**/*.js
+!mcp-servers/**/*.json
+
+# Keep watcher code
+!watchers/*.py
+
+# Keep empty directories with .gitkeep
+!*/.gitkeep

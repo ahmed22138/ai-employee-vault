@@ -1,0 +1,17 @@
+{
+  "name": "odoo-mcp-server",
+  "version": "1.0.0",
+  "description": "Odoo Accounting MCP Server for AI Employee - Gold Tier",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["mcp", "odoo", "accounting", "automation"],
+  "author": "AI Employee System",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}

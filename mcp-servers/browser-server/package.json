@@ -1,0 +1,18 @@
+{
+  "name": "browser-mcp-server",
+  "version": "1.0.0",
+  "description": "Browser Automation MCP Server for AI Employee - Gold Tier",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "install-browsers": "playwright install chromium"
+  },
+  "keywords": ["mcp", "browser", "automation", "playwright"],
+  "author": "AI Employee System",
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}

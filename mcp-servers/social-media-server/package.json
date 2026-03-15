@@ -1,0 +1,17 @@
+{
+  "name": "social-media-mcp-server",
+  "version": "1.0.0",
+  "description": "Social Media MCP Server for Facebook, Instagram, Twitter/X - Gold Tier",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["mcp", "social-media", "facebook", "instagram", "twitter", "automation"],
+  "author": "AI Employee System",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}

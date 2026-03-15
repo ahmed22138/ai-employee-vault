@@ -1,0 +1,17 @@
+{
+  "name": "email-mcp-server",
+  "version": "1.0.0",
+  "description": "Simple Email MCP Server for AI Employee",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["mcp", "email", "automation"],
+  "author": "AI Employee System",
+  "license": "MIT",
+  "dependencies": {
+    "nodemailer": "^6.9.8"
+  }
+}
